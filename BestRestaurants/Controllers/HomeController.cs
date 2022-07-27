@@ -6,8 +6,8 @@ namespace BestRestaurants.controller
   {
     [HttpGet("/")]
     public ActionResult Index()
-  {
-    return View();
-  }
+    {
+      return View();
+    }
   }
 }
