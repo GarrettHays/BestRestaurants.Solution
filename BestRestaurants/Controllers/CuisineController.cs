@@ -10,7 +10,7 @@ namespace BestRestaurants.Controllers
   {
     private readonly BestRestaurantsContext _db;
 
-    public CuisineController(ToDoListContext db)
+    public CuisineController(BestRestaurantsContext db)
     {
       _db = db;
     }
