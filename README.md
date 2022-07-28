@@ -60,7 +60,7 @@ _This is an MVC application that was built using C#. The purpose of this applica
     "DefaultConnection": "Server=localhost;Port=3306;database=best_restaurants;uid=root;pwd=[YOUR-PASSWORD-HERE];"
   }
 }</pre>
-<small>*note: you must include your password in the code block section labeled "YOUR-PASSWORD-HERE".</small>
+<small>*note: you must include your password in the code block section labeled "YOUR-PASSWORD-HERE".</small><br>
 <small>**note: if you plan to push this cloned project to a public-facing repository, remember to add the appsettings.json file to your .gitignore before doing so.</small>
 
 <li>Once "appsettings.json" file has been created, navigate back to SQL Workbench.
