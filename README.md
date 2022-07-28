@@ -81,28 +81,6 @@ Navigate to:
 Run ```$ dotnet restore``` in the console.<br>
 Run ```$ dotnet run``` in the console
 </details>
-
-
-
-<!-- <summary><strong>To Run</strong></summary>
-Navigate to  
-   <pre>BestRestaurants.Solution
-   ├── <strong>BestRestaurants</strong>
-   └── BestRestaurants.Tests</pre>
-
-Run ```$ dotnet run``` in the console
-</details>
-
-<details>
-<summary><strong>For Testing</strong></summary>
-Navigate to  
-    <pre>BestRestaurants.Solution
-    ├── BestRestaurants
-    └── <strong>BestRestaurants.Tests</strong></pre>
-
-Run ```$ dotnet test``` in the console
-
-</details> -->
 <br>
 
 This program was built using *`Microsoft .NET SDK 5.0.401`*, and may not be compatible with other versions. Your milage may vary.
