@@ -14,6 +14,8 @@
 [Known Bugs](#known-bugs)  
 [License](#license)**
 
+---
+
 ## Technologies Used
 
 * _C#_
@@ -43,18 +45,19 @@ _This is an MVC application that was built using C#. The purpose of this applica
 <li>Move onto "SQL Workbench" instructions below to re-create database necessary to run this project.
 <br>
 </details>
+
 <details>
 <summary><strong>SQL Workbench Configuration</strong></summary>
 <ol>
-<li>Create an appsetting.json file in the root directory of the project*  
+<li>Create an appsetting.json file in the "BestRestaurants" directory of the project*  
    <pre>BestRestaurants.Solution
-   ├── appsetting.json
-   └── BestRestaurants</pre>
+   └── BestRestaurants
+    └── appsetting.json</pre>
 <li> Insert the following code** : <br>
 
 <pre>{
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;database=to_do_list;uid=root;pwd=[YOUR-PASSWORD-HERE];"
+    "DefaultConnection": "Server=localhost;Port=3306;database=best_restaurants;uid=root;pwd=[YOUR-PASSWORD-HERE];"
   }
 }</pre>
 <small>*note: you must include your password in the code block section labeled "YOUR-PASSWORD-HERE".</small>
@@ -90,8 +93,7 @@ This program was built using *`Microsoft .NET SDK 5.0.401`*, and may not be comp
 ---
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues_
 
 ## License
 
