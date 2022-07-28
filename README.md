@@ -46,19 +46,21 @@ _This is an MVC application that was built using C#. The purpose of this applica
 <details>
 <summary><strong>SQL Workbench Configuration</strong></summary>
 <ol>
-<li>Create an appsetting.json file in the root directory of the project  
+<li>Create an appsetting.json file in the root directory of the project*  
    <pre>BestRestaurants.Solution
    ├── appsetting.json
    └── BestRestaurants</pre>
-<li> Insert the following code**: <br>
+<li> Insert the following code** : <br>
 
 <pre>{
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Port=3306;database=to_do_list;uid=root;pwd=[YOUR-PASSWORD-HERE];"
   }
 }</pre>
-<small>**note: you must include your password in the code block section labeled "YOUR-PASSWORD-HERE".</small>
+<small>*note: you must include your password in the code block section labeled "YOUR-PASSWORD-HERE".</small>
+<small>**note: if you plan to push this cloned project to a public-facing repository, remember to add the appsettings.json file to your .gitignore before doing so.</small>
 
+<li>Once "appsettings.json" file has been created, navigate back to SQL Workbench.
 <li>Import the database named "best_restaurants.sql" from the root directory of the project.<br><br>
 How to Import a Database:
 <ol> 
